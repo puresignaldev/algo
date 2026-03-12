@@ -1,0 +1,33 @@
+{
+  "name": "@puresignal/algo",
+  "version": "0.1.0",
+  "description": "Algorithmic composition functions",
+  "keywords": [
+    "algorithmic-composition",
+    "creative-coding",
+    "audio",
+    "music",
+    "generative"
+  ],
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "repository": "https://github.com/puresignaldev/algo",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc --emitDeclarationOnly && bun build ./src/index.ts --outdir ./dist --target node",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3",
+    "vitest": "^4.1.0"
+  }
+}
