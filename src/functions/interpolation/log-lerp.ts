@@ -8,10 +8,10 @@
  * result     = low^(1−t) · high^t
  * ```
  *
+ * @param t - Interpolation factor, typically in [0, 1].
  * @param low - Start value. Returned when `t = 0`.
  * @param high - End value. Returned when `t = 1`.
- * @param t - Interpolation factor, typically in [0, 1].
  */
-export default function logLerp(low: number, high: number, t: number) {
+export default function logLerp(t: number, low: number, high: number) {
   return low * Math.pow((high / low), t)
 }
