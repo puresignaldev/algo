@@ -1,6 +1,6 @@
 # @puresignal/essl
 
-Algorithmic composition functions for creative coding and audio programming.
+Algorithmic composition library named after the composer Karlheinz Essl and inspired by his [Real Time Composition Library](https://www.essl.at/works/rtc.html).
 
 ## Install
 
