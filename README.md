@@ -1,4 +1,4 @@
-# @puresignal/algo
+# @puresignal/essl
 
 Algorithmic composition functions for creative coding and audio programming.
 
