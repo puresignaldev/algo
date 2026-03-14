@@ -5,7 +5,7 @@ Algorithmic composition library named after the composer Karlheinz Essl and insp
 ## Install
 
 ```sh
-npm install @puresignal/algo
+npm i @puresignal/essl
 ```
 
 ## API
