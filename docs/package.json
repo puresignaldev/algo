@@ -1,0 +1,24 @@
+{
+  "name": "docs",
+  "dependencies": {
+    "@nuxt/content": "^3.12.0",
+    "@nuxt/ui": "^4.5.1",
+    "@tiptap/y-tiptap": "^3.0.2",
+    "better-sqlite3": "^12.8.0",
+    "nuxt": "^4.4.2",
+    "tailwindcss": "^4.2.1"
+  },
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "docs:api": "typedoc --plugin typedoc-plugin-markdown --out content/api --tsconfig ../tsconfig.json ../src/index.ts"
+  },
+  "type": "module",
+  "devDependencies": {
+    "typedoc": "^0.28.17",
+    "typedoc-plugin-markdown": "^4.10.0"
+  }
+}
