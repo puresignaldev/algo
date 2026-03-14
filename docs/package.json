@@ -10,6 +10,10 @@
   },
   "dependencies": {
     "@nuxt/content": "^3.12.0",
-    "nuxt": "^4.4.2"
+    "@nuxt/ui": "^4.5.1",
+    "@tiptap/y-tiptap": "^3.0.2",
+    "better-sqlite3": "^12.8.0",
+    "nuxt": "^4.4.2",
+    "tailwindcss": "^4.2.1"
   }
 }
