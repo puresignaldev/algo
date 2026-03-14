@@ -1,7 +1,7 @@
 {
-  "name": "@puresignal/algo",
-  "version": "0.4.0",
-  "description": "Algorithmic composition functions",
+  "name": "@puresignal/essl",
+  "version": "0.1.0",
+  "description": "Algorithmic composition library",
   "keywords": [
     "algorithmic-composition",
     "creative-coding",
@@ -12,7 +12,7 @@
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "repository": "https://github.com/puresignaldev/algo",
+  "repository": "https://github.com/puresignaldev/essl",
   "exports": {
     ".": {
       "import": "./dist/index.js",
