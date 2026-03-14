@@ -1,6 +1,6 @@
 # @puresignal/essl
 
-Algorithmic composition library named after the composer Karlheinz Essl and inspired by his [Real Time Composition Library](https://www.essl.at/works/rtc.html).
+Algorithmic composition library named after the composer [Karlheinz Essl](https://en.wikipedia.org/wiki/Karlheinz_Essl_Jr.) and inspired by his [Real Time Composition Library](https://www.essl.at/works/rtc.html).
 
 ## Install
 
